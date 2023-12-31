@@ -73,7 +73,7 @@ git checkout -b improvements
 # Make changes and commit
 git push origin improvements
 ```
-# Best Practices in Git
+## Best Practices in Git
 
 1. **Commit Frequently and in Small Units:**
    - Make frequent, smaller commits that represent individual changes logically. This aids in better tracking, understanding, and reverting changes if needed.
