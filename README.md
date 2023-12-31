@@ -36,6 +36,23 @@ The `git clone` command is used to create a local copy of a remote repository.
 ### Syntax:
 
 ```bash
-git clone <repository_URL>
+git clone <repository_URL> 
+```
 
-```markdown
+## git pull
+The `git pull` command is used to fetch and integrate changes from a remote repository into the current branch.
+```bash
+
+git pull [<remote>] [<branch>]
+
+# To pull changes from the remote repository into the current branch:
+git pull origin main
+```
+### Usage:
+    Fetches the latest changes from the specified remote repository.
+    Integrates fetched changes into the current local branch.
+    Automatically performs a git fetch followed by a git merge to update the local branch with the remote changes.
+
+
+
+
